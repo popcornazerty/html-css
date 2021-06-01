@@ -1,0 +1,43 @@
+
+@font-face
+{
+    font-family: 'Anonymous_Pro';
+    src: url('Anonymous_Pro.ttf'),
+    url('Anonymous_Pro_B.ttf'),
+    url('Anonymous_Pro_BI.ttf'),
+    url('Anonymous_Pro_I.ttf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+img
+{
+    float: inline-start;
+    border: 3px solid black;
+    box-shadow: 3px 3px 3px black;
+}
+
+body
+{
+    background-image: url('images/fond.jpeg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    opacity: 0.8;
+    font-family: 'Anonymous_Pro', sans-serif;
+  }
+
+
+h2
+{
+    color: #c7cf7c;
+}
+
+h2 + p
+{
+    text-align: justify;
+}
+
+
+
